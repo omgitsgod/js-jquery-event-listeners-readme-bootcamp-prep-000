@@ -1,7 +1,7 @@
 //define functions here
 function getIt() {
-  $('p').on('', function() {
-    alert('')
+  $('p').on('click', function() {
+    alert('Hey!')
   })
 }
 
@@ -20,5 +20,5 @@ function submitIt() {
 $(document).ready(function(){
 
 // call functions here
-
+getIt()
 });
