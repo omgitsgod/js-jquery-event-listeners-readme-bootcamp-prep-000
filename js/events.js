@@ -12,8 +12,10 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').on('keydown', function(k) {
-    if (k.which == (alert('')
+ $('form').on('keydown', function(k) {
+  if (k.which == 71) {
+     alert('nonono!')
+   }
   })
 }
 
